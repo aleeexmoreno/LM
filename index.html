@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nombre" required>Nombre:</label>
+            <input type="text" id="nombre" required> <br>
+        <label for="contra">Contraseña:</label>
+            <input type="password" id="contra" required><br>
+        <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" required><br>
+        <label for="url">URL:</label>
+            <input type="url" placeholder="Escribe la URL de tu página" id="url" required> <br>
+        <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha"><br>
+        <label for="tiempo">Tiempo:</label>
+            <input type="time" id="tiempo"><br>    
+        <label for="numero">Número (min -10, max 10):</label>
+            <input type="number" id="numero"><br>
+        <label for="tlf">Teléfono:</label>  
+            <input type="tel" id="tlf" pattern="[0-9{9}]"><br>
+        <label for="busqueda">Término de búsqueda:</label> 
+            <input type="search"><br>
+        <label for="color">Color favorito:</label>
+            <input type="color" id="color"><br>
+        <label for="sys">Sistema operativo:</label>
+            <select name="sistemas" id="">
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+                <option value="macOS">MacOS</option>
+            </select><br>
+        <label for="leng">¿Qué lenguajes de programación web conoces?</label>
+            <input type="checkbox" name="" id="leng" value="html5" checked>HTML5 
+            <input type="checkbox" name="" id="leng" value="css3" checked>Css3
+            <input type="checkbox" name="" id="leng" value="javascript">JavaScript 
+            <input type="checkbox" name="" id="leng" value="php">Php 
+            <input type="checkbox" name="" id="leng" value="python">Python <br>
+        <label for="py">¿Sabes utilizar Python?</label>
+            <input type="radio" value="si"checked>Sí
+            <input type="radio" value="no">No <br>
+        <label for="coment">Comentarios:</label>
+            <textarea id="coment" cols="45" rows="4"></textarea><br><br>
+        
+            <input type="submit" value="Submit!">
+        
+    </form>
+    
+</body>
+</html>
